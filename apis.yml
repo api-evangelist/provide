@@ -1,8 +1,25 @@
 aid: provide
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/provide.png
 name: Provide
-description: 'Provide is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Provide is a financial services division of Fifth Third Bank offering
+  banking and financing built specifically for owners of professional practices —
+  dental, medical, veterinary, optometry, childcare, financial advisory, funeral,
+  and insurance businesses. The company provides conventional and SBA loans to start,
+  acquire, or expand a practice, alongside a full suite of customized banking products.
+  Provide was acquired by Fifth Third Bank and operates as a specialty lending and
+  banking brand. Surfaced as a portfolio company of QED Investors; it publishes no
+  public developer API, documentation, or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/provide/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthtech
+- Fintech
+- Banking
+- Lending
+- Financial Services
+- Practice Finance
+- SBA Loans
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.getprovide.com/
+- type: Blog
+  url: https://www.getprovide.com/the-path-to-owning-it
+- type: SignUp
+  url: https://www.getprovide.com/get-started
+- type: Login
+  url: https://www.getprovide.com/users/sign_in
+- type: Support
+  url: mailto:hello@getprovide.com
+- type: TermsOfService
+  url: https://www.getprovide.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.getprovide.com/privacy-policy
+- type: DomainSecurity
+  url: security/provide-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
