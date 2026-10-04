@@ -47,7 +47,7 @@ tags:
 - Fintech
 - Banking
 - Lending
-- Financial-Services
+- Financial Services
 - Practice Finance
 - SBA Loans
 tags_raw:
@@ -59,6 +59,7 @@ tags_raw:
 - Financial Services
 - Practice Finance
 - SBA Loans
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
